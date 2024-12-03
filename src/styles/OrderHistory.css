@@ -1,0 +1,70 @@
+.order-history-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 7px;
+    background-color: var(--card-background-color);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .order-item:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .order-history-card {
+    margin-bottom: 20px;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    background-color: var(--card-background-color);
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .order-history-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-history-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--highlight-color);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .order-history-container {
+      padding: 1rem;
+    }
+  
+    .order-history-title {
+      font-size: 1.5rem;
+    }
+  
+    .order-item {
+      padding: 0.8rem;
+    }
+  
+    .order-history-card {
+      padding: 1rem;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+.cart-summary {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: right;
+  color: var(--highlight-color);
+  padding: 1rem;
+  background-color: var(--card-background-color);
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.cart-checkout {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.cart-checkout-button {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--card-background-color);
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.cart-checkout-button:hover {
+  background-color: #ff5722;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.payment-modal {
+  padding: 20px;
+}
+
+.payment-modal h1 {
+  color: var(--highlight-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-form .ant-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--text-color);
+}
+
+.payment-form .ant-btn {
+  background-color: var(--highlight-color);
+  color: var(--card-background-color);
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.payment-form .ant-btn:hover {
+  background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+  .cart-summary {
+    text-align: left;
+  }
+
+  .cart-checkout {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .payment-modal {
+    padding: 10px;
+  }
+}
