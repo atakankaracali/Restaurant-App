@@ -5,7 +5,7 @@
 Restaurant App is a simple application designed to showcase a restaurant menu. Users can browse menu items, view detailed descriptions, add items to their cart, and manage their orders. The app is responsive, supports multiple languages ​​(English and Latvian), and includes a day-night mode for better usability.
 
 Check out the live version here:
-🌐 **Live Demo** 👉 Restaurant App](https://restarount-app.netlify.app/)
+🌐 **Live Demo** 👉 [Restaurant App](https://restarount-app.netlify.app/)
 
 ## ✨ Features
 
