@@ -21,7 +21,7 @@ Check out the live version here:
 
 - **Order History:** Keep track of your past orders.
 
--**Responsive Design:** Works great on both desktop and mobile devices.
+- **Responsive Design:** Works great on both desktop and mobile devices.
 
 
 ## 🚀Setup Instructions
